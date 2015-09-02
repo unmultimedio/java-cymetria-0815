@@ -13,6 +13,8 @@ public class EjercicioMetodos {
     public static void main(String[] args){
         double valorEnCOP = 650000;
         
+        double area = Math.pow(2, 10);
+        
         double valorEnUSD = convertirCOP2USD(valorEnCOP);
         double valorEnEUR = convertirCOP2EUR(valorEnCOP);
         double valorEnYEN = convertirCOP2YEN(valorEnCOP);
